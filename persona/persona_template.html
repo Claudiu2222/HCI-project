@@ -1,211 +1,677 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-<meta charset="utf-8"/>
-<meta name="publisher" content="blankdots.com"/>
-<meta name="author" content="Stefan Negru"/>
-<meta name="keywords" content="personas, template" />
-<meta name="description" content="Personas Template with microdata" />
-<meta name="robots" content="noindex,nofollow"/>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<title>Personas Template</title>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="publisher" content="blankdots.com" />
+    <meta name="author" content="Stefan Negru" />
+    <meta name="keywords" content="personas, template" />
+    <meta name="description" content="Personas Template with microdata" />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Personas Template</title>
+  </head>
 
-<body>
-<header>
-	<h1>Personas for Good BOI</h1>
-	<span id="logo"><a href="http://www.w3.org/html/logo/">
-</a></span>
+  <body>
+    <header>
+      <h1>Personas for Good BOI</h1>
+      <span id="logo"><a href="http://www.w3.org/html/logo/"> </a></span>
+    </header>
+    <section>
+      <h1 class="hidden">Personas Section (minimum 4 personas recommended)</h1>
+      <article itemscope itemtype="http://schema.org/Person" class="persona">
+        <div class="personaInfo">
+          <h3>Type: Primary</h3>
+          <figure>
+            <img
+              itemprop="image"
+              src="https://scontent-otp1-1.xx.fbcdn.net/v/t1.6435-9/36376254_1806117052767184_5646087333565431808_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0rhEWB-cAKwAX9aEOTu&_nc_ht=scontent-otp1-1.xx&oh=00_AfDzYoaJv4pEAD-t9xnAx7zSyRH85ezpYz_PwL7453AoqA&oe=66267473"
+              alt="persona image"
+              width="150"
+            />
+          </figure>
+          <div class="personaBackground">
+            <h4>
+              Name: <span itemprop="givenName">Razvan Paul</span>
+              <span itemprop="familyName">Olariu</span>
+            </h4>
+            <h5>Background</h5>
+            <ul>
+              <li>
+                <strong>Date of Birth:</strong>
+                <time itemprop="birthDate" datetime="1990-10-23"
+                  >21/05/1989</time
+                >
+              </li>
+              <li>
+                <strong>Gender:</strong> <span itemprop="gender">Male</span>
+              </li>
+              <li
+                itemprop="location"
+                itemscope
+                itemtype="http://schema.org/Place"
+              >
+                <strong>Location:</strong>
+                <span itemprop="name">Vaslui, Romania</span>
+              </li>
+              <li
+                itemprop="worksFor"
+                itemscope
+                itemtype="http://schema.org/Organization"
+              >
+                <strong>Work place:</strong>
+                <span itemprop="name">Grapefruit</span>,
+                <span itemprop="jobTitle">digital strategist</span>
+              </li>
+              <li
+                itemprop="alumniOf"
+                itemscope
+                itemtype="http://schema.org/EducationalOrganization"
+              >
+                <strong>School:</strong>
+                <span itemprop="name">UAIC, Geografie</span>
+              </li>
+              <li><strong>Technology Level:</strong>High</li>
+            </ul>
+          </div>
+        </div>
+        <div class="personaDetails">
+          <div class="detailsLeft">
+            <div class="leftGroup">
+              <h5>Main Points</h5>
 
-</header>
-<section>
-	<h1 class="hidden">Personas Section (minimum 4 personas recommended)</h1>
-	<article itemscope itemtype="http://schema.org/Person" class="persona">
-		<div class="personaInfo">
-			<h3>Type: Primary</h3>
-			<figure>
-				<img itemprop="image" src="sebi_persona.jpg" alt="persona image" width="150"  />
-			</figure>
-			<div class="personaBackground">				
-				<h4>Name: <span itemprop="givenName">Sebastian</span> <span itemprop="familyName">Duluman</span></h4>
-					<h5>Background</h5>
-					<ul>
-						<li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1990-10-23">28/11/2002</time></li>
-						<li><strong>Gender:</strong> <span itemprop="gender">Male</span></li>
-						<li itemprop="location" itemscope itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Iasi, Romania</span></li>
-						<li itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">UAIC, FII</span>, <span itemprop="jobTitle">Student</span></li>
-						<li itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization"><strong>School:</strong>  <span itemprop="name">UAIC, FII</span></li>
-						<li><strong>Technology Level:</strong>High</li>
-					</ul>
-			</div>
-		</div>
-		<div class="personaDetails">
-			<div class="detailsLeft">
-				<div class="leftGroup">
-					<h5>Main Points</h5>
-					<p>Some points extracted from detailed description, that are specific for this persona and the reason we chose it. For example <strong>(phrases are recommended not just simple list of points)</strong>:</p>
-					<ul>
-						<li></li>
-						<li>Dislikes about certain aspects;</li>
-						<li>Disabilities relevant to our research;</li>
-						<li>Working environment;</li>
-						<li>Social connections;</li>
-						<li>The user's goals.</li>
-					</ul>
-				</div>
-				<div class="leftGroup">
-					<h5>Goals</h5>
-					<p>Goals are the reasons users perform tasks, not the tasks.</p>
-					<ul>
-						<li>Practical Goals:</li>
-						<li>Personal Goals:</li>
-						<li>Business Goals:</li>
-					</ul>
-				</div>
-				<div class="leftGroup">
-					<h5>Frustrations and Pain Points</h5>
-					<p>Some of the difficulties the user has with the product.</p>
-					<ul>
-						<li>UI, Interaction, User Experience;</li>
-						<li>Dislikes relevant to the research;</li>
-						<li>Disabilities;</li>
-						<li>Unreliability of the product;</li>
-						<li>Difficulties in completing tasks;</li>
-						<li>Problems with the product: slowness, hard to use, no feedback provided;</li>
-					</ul>
-				</div>
-			</div>
-			<div itemprop="description" class="detailsRight">
-				<h5>Detailed Description</h5>
-				<p>Sebastian is a student at UAIC, FII. He is smart and wants the best for him and his loved ones. In fact, he actually have a dog. He usually take care of his dog, trying to train him.
-				</p>
-				<p><strong>"A persona is a user archetype you can use to help guide decisions about product features, navigation, interactions, and even visual design." (Kim Goodwin, Cooper.com)</strong></p>
-				<p>Regarding the persona type: Primary/Secondary/Negative/Supplemental/Served/Customer, these categories of personas are defined in <span itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/About-Face-Essentials-Interaction-Design/dp/0470084111/">About Face 3.0</a></span> by <span itemprop="author">Alan Cooper</span></span>.</p>
-				<p>A few personal details regarding relationship to the application domain in which we will use the personas, work life, social life, teamwork etc.</p>
-				<p><strong>This section should be structured as a story.</strong></p>
-				<p>Regarding selecting goals it is recommended to be dived into:</p>
-				<ul>
-						<li>Practical Goals like: avoid meetings, being efficient;</li>
-						<li>Personal Goals like: not feeling stupid (the product insults the user), getting an adequate amount of work done, having fun;</li>
-						<li>Business Goals like: increasing student enrollment, getting good education.</li>
-					</ul>
-				<p>List any prior experience  that is relevant to the persona  </p>
-				<ul>
-					<li>Experience with certain applications, products;</li>
-					<li>Frequency of use.</li>
-				</ul>
-				<h5>References</h5>
-				<ul>
-					<li>Fluid <a href="http://wiki.fluidproject.org/display/fluid/Personas">Personas</a>;</li>
-					<li>An introduction to personas and <a href="http://www.steptwo.com.au/papers/kmc_personas">how to create them</a>;</li>
-					<li itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1" class="external-link" rel="nofollow">The Persona Lifecycle, Keeping People in Mind Throughout Product Design</a></span>, <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;</li>
-					<li>This version of Personas Template includes microdata markup using <a href="schema.org/">schema.org Schemas</a>.</li>
-				</ul>
-			</div>
-		</div>
-		<div class="personaScenarios">
-			<h5>Scenarios</h5>
-			<p>Develop and list a few scenarios in which your product is used (when, how and with whom it is used) by this persona. In developing these scenarios consider the Main points, Goals and Frustrations &amp; Pain Points. Describe the scenario in a few phrases and also establish a few end points. Images could be used to describe the scenarios. </p>
-		</div>
-		<div class="otherDetails">
-			<h5>Other Details</h5>
-			<p>Other details regarding this persona.</p>
-		</div>
-	</article>
-	<article itemscope itemtype="http://schema.org/Person" class="persona">
-		<div class="personaInfo">
-			<h3>Type: Primary/Secondary/Negative/Supplemental/Served/Customer</h3>
-			<figure>
-				<img  itemprop="image" src="http://placehold.it/150x150" alt="persona image"  />
-			</figure>
-			<div class="personaBackground">				
-				<h4>Name: <span itemprop="givenName">FirstName</span> <span itemprop="familyName">LastName</span></h4>
-					<h5>Background</h5>
-					<ul>
-						<li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1990-10-23">10/23/1990</time></li>
-						<li><strong>Gender:</strong> <span itemprop="gender">Male/Female</span></li>
-						<li itemprop="location" itemscope itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Iasi, Romania</span></li>
-						<li itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">Organization Name</span>, <span itemprop="jobTitle">Engineer</span></li>
-						<li itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization"><strong>School:</strong>  <span itemprop="name">Palo Alto High School</span> (if required)</li>
-						<li><strong>Technology Level:</strong> (if required)</li>
-					</ul>
-			</div>
-		</div>
-		<div class="personaDetails">
-			<div class="detailsLeft">
-				<div class="leftGroup">
-					<h5>Main Points</h5>
-					<p>Some points extracted from detailed description, that are specific for this persona and the reason we chose it. For example <strong>(phrases are recommended not just simple list of points)</strong>:</p>
-					<ul>
-						<li>Experience with certain products;</li>
-						<li>Dislikes about certain aspects;</li>
-						<li>Disabilities relevant to our research;</li>
-						<li>Working environment;</li>
-						<li>Social connections;</li>
-						<li>The user's goals.</li>
-					</ul>
-				</div>
-				<div class="leftGroup">
-					<h5>Goals</h5>
-					<p>Goals are the reasons users perform tasks, not the tasks.</p>
-					<ul>
-						<li>Practical Goals:</li>
-						<li>Personal Goals:</li>
-						<li>Business Goals:</li>
-					</ul>
-				</div>
-				<div class="leftGroup">
-					<h5>Frustrations and Pain Points</h5>
-					<p>Some of the difficulties the user has with the product.</p>
-					<ul>
-						<li>UI, Interaction, User Experience;</li>
-						<li>Dislikes relevant to the research;</li>
-						<li>Disabilities;</li>
-						<li>Unreliability of the product;</li>
-						<li>Difficulties in completing tasks;</li>
-						<li>Problems with the product: slowness, hard to use, no feedback provided;</li>
-					</ul>
-				</div>
-			</div>
-			<div itemprop="description" class="detailsRight">
-				<h5>Detailed Description</h5>
-				<p><strong>"A persona is a user archetype you can use to help guide decisions about product features, navigation, interactions, and even visual design." (Kim Goodwin, Cooper.com)</strong></p>
-				<p>Regarding the persona type: Primary/Secondary/Negative/Supplemental/Served/Customer, these categories of personas are defined in <span itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/About-Face-Essentials-Interaction-Design/dp/0470084111/">About Face 3.0</a></span> by <span itemprop="author">Alan Cooper</span></span>.</p>
-				<p>A few personal details regarding relationship to the application domain in which we will use the personas, work life, social life, teamwork etc.</p>
-				<p><strong>This section should be structured as a story.</strong></p>
-				<p>Regarding selecting goals it is recommended to be dived into:</p>
-				<ul>
-						<li>Practical Goals like: avoid meetings, being efficient;</li>
-						<li>Personal Goals like: not feeling stupid (the product insults the user), getting an adequate amount of work done, having fun;</li>
-						<li>Business Goals like: increasing student enrollment, getting good education.</li>
-					</ul>
-				<p>List any prior experience  that is relevant to the persona  </p>
-				<ul>
-					<li>Experience with certain applications, products;</li>
-					<li>Frequency of use.</li>
-				</ul>
-				<h5>References</h5>
-				<ul>
-					<li>Fluid <a href="http://wiki.fluidproject.org/display/fluid/Personas">Personas</a>;</li>
-					<li>An introduction to personas and <a href="http://www.steptwo.com.au/papers/kmc_personas">how to create them</a>;</li>
-					<li itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1" class="external-link" rel="nofollow">The Persona Lifecycle, Keeping People in Mind Throughout Product Design</a></span>, <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;</li>
-					<li>This version of Personas Template includes microdata markup using <a href="schema.org/">schema.org Schemas</a>.</li>
-				</ul>
-			</div>
-		</div>
-		<div class="personaScenarios">
-			<h5>Scenarios</h5>
-			<p>Develop and list a few scenarios in which your product is used (when, how and with whom it is used) by this persona. In developing these scenarios consider the Main points, Goals and Frustrations &amp; Pain Points. Describe the scenario in a few phrases and also establish a few end points. Images could be used to describe the scenarios. </p>
-		</div>
-		<div class="otherDetails">
-			<h5>Other Details</h5>
-			<p>Other details regarding this persona.</p>
-		</div>
-	</article>		
-</section>
+              <ul>
+                <li>
+                  Razvan is scared by the difficulties he encountered in
+                  training Django, in particular by the situations in which
+                  classical methods did not resonate for his dog
+                </li>
+                <li>
+                  As a digital strategist, Razvan's job requires him to be
+                  tech-savvy and efficient in managing his time. He seeks tools
+                  and solutions that seamlessly integrate into his busy
+                  lifestyle and provide practical assistance.
+                </li>
+                <li>
+                  In his professional life Razvan works with people and he likes
+                  it, he will also enjoys interacting with other dog owners and
+                  values the opportunity to learn from their experience
+                </li>
+                <li>
+                  Razvan wants to be a confident dog owner, who can offer
+                  happiness and a good education to his friend
+                </li>
+              </ul>
+            </div>
+            <div class="leftGroup">
+              <h5>Goals</h5>
+              <ul>
+                <li>
+                  Razvan's primary goal is to ensure Django's happiness and
+                  well-being, which includes providing proper education and
+                  training for his dog.
+                </li>
+                <li>Being a strong and confident dog owner</li>
+                <li>Better time management, saving time in training the dog</li>
+              </ul>
+            </div>
+            <div class="leftGroup">
+              <h5>Frustrations and Pain Points</h5>
+              <ul>
+                <li>
+                  A main problem could be related to Razvan's patience in this
+                  education process
+                </li>
+                <li>
+                  A main problem could be related to the explanations given by
+                  the coach
+                </li>
+                <li>
+                  A problem could be related to the UI of how the application
+                  interface is built and how easy or hard it seems
+                </li>
+                <li>
+                  Problems with the product: slowness, hard to use, no feedback
+                  provided
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div itemprop="description" class="detailsRight">
+            <h5>Detailed Description</h5>
+            <p>
+              Meet Razvan, he is a digital strategist passionate about nature,
+              music, marketing and data analytics, but also our primary persona.
+              From the beginning of his journey to adulthood, he adopted a
+              playful and lively dog, Django.
+            </p>
+            <p>
+              In his busy life Razvan juggles between his job, social
+              commitments and most importantly ensuring Django's happiness. As
+              soon as he decided to adopt a dog, this came with an extra
+              responsibility, but the most important aspect being its education.
+            </p>
+            <p>
+              Razvan also took care of Django's training, documenting himself
+              and watching videos on the Internet. However, he encountered
+              difficulties in finding the right approach that would resonate
+              with Django in different situations.
+            </p>
+            <p>
+              With the appearance of the GUD BOI application, Razvan sees an
+              opportunity to fulfill the ultimate goal of the dog education. He
+              sees this application as a tool that not only provides guidance
+              and feedback, but also one that fits the lifestyle.
+            </p>
+            <p>
+              The lessons and videos on the platform will help Razvan to
+              understand certain things about Django, moreover, interacting with
+              other users through the application excites him, being able to
+              learn from the experiences of other dog owners. One thing that
+              Razvan sees as innovative is the part of AR integrated in the
+              application, in which he will be able to interact in 2 ways. In
+              the first part he will be made to act in different simulated
+              situations with a virtual dog, from here he will learn how to
+              manage these situations in real life together with Django. As for
+              the second part, he will receive certain recommendations regarding
+              the actions he takes on the dog in real time and not simulated.
+            </p>
+            <p>
+              Razvan's goals with the GUD BOI app are varied. On a practical
+              level, they hope to improve Django's behavior and address specific
+              behavioral issues such as leash pulling and jumping. Personally,
+              he wants to feel confident and strong as a dog owner, knowing that
+              he is providing the best possible care for Django. From a business
+              perspective, Razvan hopes the app will help her save time and
+              effort in training Django, allowing her to focus on other aspects
+              of her life and work.
+            </p>
 
-<footer id="footer">
-	<span id="license"><a href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a></span>
-</footer>
-</body>
+            <!--End Detailed Description -->
+            <h5>References</h5>
+            <ul>
+              <li>
+                Fluid
+                <a href="http://wiki.fluidproject.org/display/fluid/Personas"
+                  >Personas</a
+                >;
+              </li>
+              <li>
+                An introduction to personas and
+                <a href="http://www.steptwo.com.au/papers/kmc_personas"
+                  >how to create them</a
+                >;
+              </li>
+              <li itemscope itemtype="http://schema.org/Book">
+                <span itemprop="name"
+                  ><a
+                    href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1"
+                    class="external-link"
+                    rel="nofollow"
+                    >The Persona Lifecycle, Keeping People in Mind Throughout
+                    Product Design</a
+                  ></span
+                >,
+                <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;
+              </li>
+              <li>
+                This version of Personas Template includes microdata markup
+                using <a href="schema.org/">schema.org Schemas</a>.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="personaScenarios">
+          <h5>Scenarios</h5>
+          <p>
+            A first scenario of use can be that of documenting and reading
+            articles predisposed to the application. In the first phase, Razvan
+            will have to learn a little about dog psychology and some basic
+            elements in training.
+          </p>
+
+          <p>
+            A second scenario will be related to training a virtual puppy
+            through AR, Razvan will need a headset through which he will do
+            different tutorials in order to be prepared to put into practice
+            what he learns when he faces situations similar
+          </p>
+
+          <p>
+            A third scenario will be related to real-time recommendations that
+            Razvan will actually receive based on the actions he takes on
+            Django.
+          </p>
+          <p></p>
+        </div>
+      </article>
+
+      <!---------------------------------->
+      <article itemscope itemtype="http://schema.org/Person" class="persona">
+        <div class="personaInfo">
+          <h3>Type: Secondary</h3>
+          <figure>
+            <img
+              itemprop="image"
+              src="https://d.newsweek.com/en/full/1618460/dogs-celebrities-dog-trainer.jpg?w=1600&h=1600&q=88&f=3b9c50ddc7746c405bd05d922fe264af"
+              alt="persona image"
+              width="150"
+            />
+          </figure>
+          <div class="personaBackground">
+            <h4>
+              Name: <span itemprop="givenName">Carlos</span>
+              <span itemprop="familyName">Mendez</span>
+            </h4>
+            <h5>Background</h5>
+            <ul>
+              <li>
+                <strong>Date of Birth:</strong>
+                <time itemprop="birthDate" datetime="1985-05-19"
+                  >19/05/1985</time
+                >
+              </li>
+              <li>
+                <strong>Gender:</strong>
+                <span itemprop="gender">Male</span>
+              </li>
+              <li
+                itemprop="location"
+                itemscope
+                itemtype="http://schema.org/Place"
+              >
+                <strong>Location:</strong>
+                <span itemprop="name">Los Angeles, California, USA</span>
+              </li>
+              <li
+                itemprop="worksFor"
+                itemscope
+                itemtype="http://schema.org/Organization"
+              >
+                <strong>Work place:</strong>
+                <span itemprop="name">Mendez Canine Academy</span>,
+                <span itemprop="jobTitle">Trainer</span>
+              </li>
+              <li
+                itemprop="alumniOf"
+                itemscope
+                itemtype="http://schema.org/EducationalOrganization"
+              ></li>
+              <li><strong>Technology Level:</strong> Intermediate</li>
+            </ul>
+          </div>
+        </div>
+        <div class="personaDetails">
+          <div class="detailsLeft">
+            <div class="leftGroup">
+              <h5>Main Points</h5>
+              <ul>
+                <li>
+                  Widely recognized for his approach to dog training, focusing
+                  on the relationship between owner and dog;
+                </li>
+                <li>
+                  He dislikes forceful training methods which can scare the dog
+                  for life;
+                </li>
+                <li>
+                  Carlos does both one-on-one sessions and large seminars;
+                </li>
+                <li>
+                  Uses social media and digital platforms to extend his
+                  influence in dog training;
+                </li>
+                <li>
+                  Carlos wants to help dog owners establish good relationships
+                  with their dogs;
+                </li>
+              </ul>
+            </div>
+            <div class="leftGroup">
+              <h5>Goals</h5>
+              <ul>
+                <li>
+                  Practical Goals: Find a dog training app which will give him
+                  the tools to help out dog owners
+                </li>
+                <li>
+                  Personal Goals: To be seen not just as a trainer but as an
+                  educator with his training methods
+                </li>
+                <li>
+                  Business Goals: Expand his reach by working with an app which
+                  shares his vision
+                </li>
+              </ul>
+            </div>
+            <div class="leftGroup">
+              <h5>Frustrations and Pain Points</h5>
+              <ul>
+                <li>
+                  He finds that many apps have a clunky UI and poor user
+                  experience, which will make users stop using the app
+                  long-term.
+                </li>
+                <li>Some apps spread misinformation about dog training</li>
+                <li>
+                  Carlos had difficulties finding an app which give insightful
+                  feedback to the users.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div itemprop="description" class="detailsRight">
+            <h5>Detailed Description</h5>
+            <p>
+              Carlos Mendez is a dog trainer from Los Angeles, California who
+              revolutionized the dog training with his empathic approach and his
+              knowledge. Through his work, Carlos aims to help dog owners
+              establish a strong bond with their pets, based on trust and
+              understanding. His training methods are based on positive
+              reinforcement and building a strong relationship between the owner
+              and the dog.
+            </p>
+            <p>
+              Carlos has two big goals: make training simple and accessible to
+              everyone and to be seen as an educator, not just a trainer. He
+              enjoys his work and wants others to experience the joy of having a
+              well-behaved dog.
+            </p>
+            <p>
+              He has a strong presence on social media and digital platforms
+              where he shares his knowledge and experience with dog owners from
+              all over the world.
+            </p>
+            <p>
+              Carlos says that there is no magic trick when it comes to training
+              dogs, but understanding their behavior and being patient enough.
+              Losing patience can lead to a negative experience for both the
+              owner and the dog.
+            </p>
+
+            <p>
+              Carlos realised that using apps can help him make the training
+              process easier for the owners, as he can provide feedback and
+              guidance in real time, while also being able to keep track of the
+              progress of the dog and the owner. Being able to use tele-training
+              is also a big plus for him, as he can reach people from all over
+              the world. Seeing the health card of the dog will also help him
+              understand the dog's behavior better and adapt the training
+              sessions accordingly.
+            </p>
+
+            <h5>References</h5>
+            <ul>
+              <li>
+                Fluid
+                <a href="http://wiki.fluidproject.org/display/fluid/Personas"
+                  >Personas</a
+                >;
+              </li>
+              <li>
+                An introduction to personas and
+                <a href="http://www.steptwo.com.au/papers/kmc_personas"
+                  >how to create them</a
+                >;
+              </li>
+              <li itemscope itemtype="http://schema.org/Book">
+                <span itemprop="name"
+                  ><a
+                    href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1"
+                    class="external-link"
+                    rel="nofollow"
+                    >The Persona Lifecycle, Keeping People in Mind Throughout
+                    Product Design</a
+                  ></span
+                >,
+                <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;
+              </li>
+              <li>
+                This version of Personas Template includes microdata markup
+                using <a href="schema.org/">schema.org Schemas</a>.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="personaScenarios">
+          <h5>Scenarios</h5>
+          <p>
+            Carlos could conduct a one-on-one outdoor training session focusing
+            on leash manners, he can show the owner exactly how to correct the
+            dog's behavior and give feedback in real time. The owner can also
+            ask questions and get advice on how to handle certain situations.
+            Carlos can use the AR feature to help a new dog owner who struggles
+            with leash pulling by overlaying visual cues for the owner to
+            follow. The owner will end up being more confident and the dog will
+            begin to show improvement in its behavior.
+          </p>
+          <p>
+            During a training session, if Carlos notices that a dog seems unwell
+            or not responding well to training cues, Carlos can open the dog's
+            health card on the "GUDBOI" app to check if there's been a recent
+            medication change or anything that could affect the dog's mood. He
+            can then advise the owner to consult with a vet before continuing
+            the training session.
+          </p>
+          <p>
+            If a dog struggles with a particular skill, Carlos can check the
+            dog's progress on the app and adjust the training plan accordingly.
+            He can also provide additional resources and tips to help the owner
+            practice at home, which will result in the dog improving this skill
+            over time.
+          </p>
+        </div>
+      </article>
+      <article itemscope itemtype="http://schema.org/Person" class="persona">
+        <div class="personaInfo">
+          <h3>Type: Primary/Secondary/Negative/Supplemental/Served/Customer</h3>
+          <figure>
+            <img
+              itemprop="image"
+              src="http://placehold.it/150x150"
+              alt="persona image"
+              width="150"
+            />
+          </figure>
+          <div class="personaBackground">
+            <h4>
+              Name: <span itemprop="givenName">FirstName</span>
+              <span itemprop="familyName">LastName</span>
+            </h4>
+            <h5>Background</h5>
+            <ul>
+              <li>
+                <strong>Date of Birth:</strong>
+                <time itemprop="birthDate" datetime="1990-10-23"
+                  >10/23/1990</time
+                >
+              </li>
+              <li>
+                <strong>Gender:</strong>
+                <span itemprop="gender">Male/Female</span>
+              </li>
+              <li
+                itemprop="location"
+                itemscope
+                itemtype="http://schema.org/Place"
+              >
+                <strong>Location:</strong>
+                <span itemprop="name">Iasi, Romania</span>
+              </li>
+              <li
+                itemprop="worksFor"
+                itemscope
+                itemtype="http://schema.org/Organization"
+              >
+                <strong>Work place:</strong>
+                <span itemprop="name">Organization Name</span>,
+                <span itemprop="jobTitle">Engineer</span>
+              </li>
+              <li
+                itemprop="alumniOf"
+                itemscope
+                itemtype="http://schema.org/EducationalOrganization"
+              >
+                <strong>School:</strong>
+                <span itemprop="name">Palo Alto High School</span> (if required)
+              </li>
+              <li><strong>Technology Level:</strong> (if required)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="personaDetails">
+          <div class="detailsLeft">
+            <div class="leftGroup">
+              <h5>Main Points</h5>
+              <p>
+                Some points extracted from detailed description, that are
+                specific for this persona and the reason we chose it. For
+                example
+                <strong
+                  >(phrases are recommended not just simple list of
+                  points)</strong
+                >:
+              </p>
+              <ul>
+                <li>Experience with certain products;</li>
+                <li>Dislikes about certain aspects;</li>
+                <li>Disabilities relevant to our research;</li>
+                <li>Working environment;</li>
+                <li>Social connections;</li>
+                <li>The user's goals.</li>
+              </ul>
+            </div>
+            <div class="leftGroup">
+              <h5>Goals</h5>
+              <p>Goals are the reasons users perform tasks, not the tasks.</p>
+              <ul>
+                <li>Practical Goals:</li>
+                <li>Personal Goals:</li>
+                <li>Business Goals:</li>
+              </ul>
+            </div>
+            <div class="leftGroup">
+              <h5>Frustrations and Pain Points</h5>
+              <p>Some of the difficulties the user has with the product.</p>
+              <ul>
+                <li>UI, Interaction, User Experience;</li>
+                <li>Dislikes relevant to the research;</li>
+                <li>Disabilities;</li>
+                <li>Unreliability of the product;</li>
+                <li>Difficulties in completing tasks;</li>
+                <li>
+                  Problems with the product: slowness, hard to use, no feedback
+                  provided;
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div itemprop="description" class="detailsRight">
+            <h5>Detailed Description</h5>
+            <p>
+              <strong
+                >"A persona is a user archetype you can use to help guide
+                decisions about product features, navigation, interactions, and
+                even visual design." (Kim Goodwin, Cooper.com)</strong
+              >
+            </p>
+            <p>
+              Regarding the persona type:
+              Primary/Secondary/Negative/Supplemental/Served/Customer, these
+              categories of personas are defined in
+              <span itemscope itemtype="http://schema.org/Book"
+                ><span itemprop="name"
+                  ><a
+                    href="http://www.amazon.com/About-Face-Essentials-Interaction-Design/dp/0470084111/"
+                    >About Face 3.0</a
+                  ></span
+                >
+                by <span itemprop="author">Alan Cooper</span></span
+              >.
+            </p>
+            <p>
+              A few personal details regarding relationship to the application
+              domain in which we will use the personas, work life, social life,
+              teamwork etc.
+            </p>
+            <p>
+              <strong>This section should be structured as a story.</strong>
+            </p>
+            <p>Regarding selecting goals it is recommended to be dived into:</p>
+            <ul>
+              <li>Practical Goals like: avoid meetings, being efficient;</li>
+              <li>
+                Personal Goals like: not feeling stupid (the product insults the
+                user), getting an adequate amount of work done, having fun;
+              </li>
+              <li>
+                Business Goals like: increasing student enrollment, getting good
+                education.
+              </li>
+            </ul>
+            <p>List any prior experience that is relevant to the persona</p>
+            <ul>
+              <li>Experience with certain applications, products;</li>
+              <li>Frequency of use.</li>
+            </ul>
+            <h5>References</h5>
+            <ul>
+              <li>
+                Fluid
+                <a href="http://wiki.fluidproject.org/display/fluid/Personas"
+                  >Personas</a
+                >;
+              </li>
+              <li>
+                An introduction to personas and
+                <a href="http://www.steptwo.com.au/papers/kmc_personas"
+                  >how to create them</a
+                >;
+              </li>
+              <li itemscope itemtype="http://schema.org/Book">
+                <span itemprop="name"
+                  ><a
+                    href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1"
+                    class="external-link"
+                    rel="nofollow"
+                    >The Persona Lifecycle, Keeping People in Mind Throughout
+                    Product Design</a
+                  ></span
+                >,
+                <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;
+              </li>
+              <li>
+                This version of Personas Template includes microdata markup
+                using <a href="schema.org/">schema.org Schemas</a>.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="personaScenarios">
+          <h5>Scenarios</h5>
+          <p>
+            Develop and list a few scenarios in which your product is used
+            (when, how and with whom it is used) by this persona. In developing
+            these scenarios consider the Main points, Goals and Frustrations
+            &amp; Pain Points. Describe the scenario in a few phrases and also
+            establish a few end points. Images could be used to describe the
+            scenarios.
+          </p>
+        </div>
+        <div class="otherDetails">
+          <h5>Other Details</h5>
+          <p>Other details regarding this persona.</p>
+        </div>
+      </article>
+    </section>
+
+    <footer id="footer">
+      <span id="license"
+        ><a href="http://creativecommons.org/licenses/by/3.0/"
+          ><img
+            alt="Creative Commons License"
+            style="border-width: 0"
+            src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a
+      ></span>
+    </footer>
+  </body>
 </html>

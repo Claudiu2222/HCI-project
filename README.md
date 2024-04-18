@@ -6,3 +6,4 @@ storyboards - https://docs.google.com/document/d/1QplXf3Ft-T_RTh6v2zd2OAuabseOiq
 
 - [Personas](https://claudiu2222.github.io/HCI-project/persona/persona_template.html)
 - [Documentation](https://claudiu2222.github.io/HCI-project/documentatie/index.html)
+- [Flows](https://claudiu2222.github.io/HCI-project/flows/index.html)

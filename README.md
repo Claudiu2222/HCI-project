@@ -13,4 +13,4 @@
 ### Component F
 [video presentation](https://youtu.be/1ah93xXOw6M) <br>
 [project style guide](https://docs.google.com/document/d/1fz2CoA10Gh4lSE_TltTsaOhv2x39H4knuX2IqPukOC8/edit) <br>
-[figma] (https://www.figma.com/design/bkenf402veWZv0JpJsRnKV/GUD-BOY-SCS-IHC?node-id=0%3A1&t=3FpjxahNBSKpzBnx-1) <br>
+[figma](https://www.figma.com/design/bkenf402veWZv0JpJsRnKV/GUD-BOY-SCS-IHC?node-id=0%3A1&t=3FpjxahNBSKpzBnx-1) <br>
